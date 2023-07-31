@@ -1,3 +1,258 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1690406811
+::res://::1690762940
 icon.svg::CompressedTexture2D::955579484609392078::1690406806::1690406812::1::::<><>::
+Player ( MC ).gd::GDScript::-1::1690762940::0::1::::<>CharacterBody2D<>::
+::res://Godot Game Internal/::1690761181
+adventurer-1.3-Sheet.png::CompressedTexture2D::4887043739410086085::1690761060::1690761181::1::::<><>::
+adventurer-Sheet.png::CompressedTexture2D::799202399137552394::1690760890::1690760946::1::::<><>::
+::res://Godot Game Internal/Individual Sprites/::1690760982
+adventurer-attack1-00.png::CompressedTexture2D::7189836979506810326::1690760890::1690760949::1::::<><>::
+adventurer-attack1-01.png::CompressedTexture2D::9033340425714936139::1690760890::1690760949::1::::<><>::
+adventurer-attack1-02.png::CompressedTexture2D::1437867731409400404::1690760890::1690760949::1::::<><>::
+adventurer-attack1-03.png::CompressedTexture2D::6461338485157821735::1690760890::1690760949::1::::<><>::
+adventurer-attack1-04.png::CompressedTexture2D::2326839764695921632::1690760890::1690760949::1::::<><>::
+adventurer-attack2-00.png::CompressedTexture2D::8828837284188428702::1690760890::1690760949::1::::<><>::
+adventurer-attack2-01.png::CompressedTexture2D::337495715489514190::1690760890::1690760948::1::::<><>::
+adventurer-attack2-02.png::CompressedTexture2D::4427543310991399551::1690760890::1690760948::1::::<><>::
+adventurer-attack2-03.png::CompressedTexture2D::91153034322471447::1690760891::1690760948::1::::<><>::
+adventurer-attack2-04.png::CompressedTexture2D::7756897001129282342::1690760891::1690760948::1::::<><>::
+adventurer-attack2-05.png::CompressedTexture2D::4396301317952548969::1690760891::1690760948::1::::<><>::
+adventurer-attack3-00.png::CompressedTexture2D::1767004846897047026::1690760891::1690760948::1::::<><>::
+adventurer-attack3-01.png::CompressedTexture2D::4615660168826317722::1690760891::1690760948::1::::<><>::
+adventurer-attack3-02.png::CompressedTexture2D::5969044784151630514::1690760891::1690760948::1::::<><>::
+adventurer-attack3-03.png::CompressedTexture2D::8946300539208964441::1690760891::1690760948::1::::<><>::
+adventurer-attack3-04.png::CompressedTexture2D::891306138415312259::1690760891::1690760948::1::::<><>::
+adventurer-attack3-05.png::CompressedTexture2D::2159862195549982930::1690760891::1690760948::1::::<><>::
+adventurer-crnr-clmb-00.png::CompressedTexture2D::5444338210176079721::1690760891::1690760948::1::::<><>::
+adventurer-crnr-clmb-01.png::CompressedTexture2D::4743221154095832456::1690760891::1690760948::1::::<><>::
+adventurer-crnr-clmb-02.png::CompressedTexture2D::7855799146756311789::1690760891::1690760948::1::::<><>::
+adventurer-crnr-clmb-03.png::CompressedTexture2D::1555972585124603422::1690760892::1690760948::1::::<><>::
+adventurer-crnr-clmb-04.png::CompressedTexture2D::3237053194331782982::1690760892::1690760948::1::::<><>::
+adventurer-crnr-grb-00.png::CompressedTexture2D::3073836615515017307::1690760892::1690760948::1::::<><>::
+adventurer-crnr-grb-01.png::CompressedTexture2D::886268475214636676::1690760892::1690760948::1::::<><>::
+adventurer-crnr-grb-02.png::CompressedTexture2D::1346404605213825976::1690760892::1690760947::1::::<><>::
+adventurer-crnr-grb-03.png::CompressedTexture2D::1619023316344830961::1690760892::1690760947::1::::<><>::
+adventurer-crnr-jmp-00.png::CompressedTexture2D::1074969939455706567::1690760892::1690760947::1::::<><>::
+adventurer-crnr-jmp-01.png::CompressedTexture2D::1819252429628707092::1690760892::1690760947::1::::<><>::
+adventurer-crnr-jmp-02.png::CompressedTexture2D::768663149950960331::1690760892::1690760950::1::::<><>::
+adventurer-crouch-00.png::CompressedTexture2D::5430968633784460964::1690760892::1690760950::1::::<><>::
+adventurer-crouch-01.png::CompressedTexture2D::4737600707043865998::1690760892::1690760950::1::::<><>::
+adventurer-crouch-02.png::CompressedTexture2D::58926064430560248::1690760893::1690760950::1::::<><>::
+adventurer-crouch-03.png::CompressedTexture2D::924995453961403550::1690760893::1690760950::1::::<><>::
+adventurer-die-00.png::CompressedTexture2D::1300950936500708592::1690760893::1690760950::1::::<><>::
+adventurer-die-01.png::CompressedTexture2D::6332541736817651642::1690760893::1690760950::1::::<><>::
+adventurer-die-02.png::CompressedTexture2D::2327930573060901199::1690760893::1690760950::1::::<><>::
+adventurer-die-03.png::CompressedTexture2D::3107051382822610606::1690760893::1690760950::1::::<><>::
+adventurer-die-04.png::CompressedTexture2D::8348860744253836641::1690760893::1690760950::1::::<><>::
+adventurer-die-05.png::CompressedTexture2D::4633211203252702354::1690760893::1690760950::1::::<><>::
+adventurer-die-06.png::CompressedTexture2D::2867494087742523223::1690760893::1690760950::1::::<><>::
+adventurer-fall-00.png::CompressedTexture2D::8140971751305560487::1690760893::1690760950::1::::<><>::
+adventurer-fall-01.png::CompressedTexture2D::7789693795020625119::1690760893::1690760950::1::::<><>::
+adventurer-hurt-00.png::CompressedTexture2D::7789721593323768797::1690760893::1690760950::1::::<><>::
+adventurer-hurt-01.png::CompressedTexture2D::4866419833076629641::1690760893::1690760950::1::::<><>::
+adventurer-hurt-02.png::CompressedTexture2D::1877715657305137855::1690760894::1690760950::1::::<><>::
+adventurer-idle-00.png::CompressedTexture2D::6978393590013512497::1690760894::1690760950::1::::<><>::
+adventurer-idle-01.png::CompressedTexture2D::5997384630398650700::1690760894::1690760950::1::::<><>::
+adventurer-idle-2-00.png::CompressedTexture2D::1014435092817742313::1690760894::1690760950::1::::<><>::
+adventurer-idle-2-01.png::CompressedTexture2D::6262164880731252224::1690760894::1690760949::1::::<><>::
+adventurer-idle-2-02.png::CompressedTexture2D::524853527274643849::1690760894::1690760949::1::::<><>::
+adventurer-idle-2-03.png::CompressedTexture2D::6622067246914608859::1690760894::1690760949::1::::<><>::
+adventurer-idle-02.png::CompressedTexture2D::6251082590068095784::1690760894::1690760949::1::::<><>::
+adventurer-idle-03.png::CompressedTexture2D::8423988220437746952::1690760894::1690760949::1::::<><>::
+adventurer-jump-00.png::CompressedTexture2D::3007138905481043806::1690760894::1690760949::1::::<><>::
+adventurer-jump-01.png::CompressedTexture2D::1582192185489015989::1690760895::1690760949::1::::<><>::
+adventurer-jump-02.png::CompressedTexture2D::4786312400227144480::1690760895::1690760949::1::::<><>::
+adventurer-jump-03.png::CompressedTexture2D::6567643128757989908::1690760895::1690760949::1::::<><>::
+adventurer-run-00.png::CompressedTexture2D::9036029885952915445::1690760895::1690760946::1::::<><>::
+adventurer-run-01.png::CompressedTexture2D::98837662215967053::1690760895::1690760946::1::::<><>::
+adventurer-run-02.png::CompressedTexture2D::7318338215559755297::1690760895::1690760946::1::::<><>::
+adventurer-run-03.png::CompressedTexture2D::7370385008059789067::1690760895::1690760946::1::::<><>::
+adventurer-run-04.png::CompressedTexture2D::8400693159603154060::1690760895::1690760946::1::::<><>::
+adventurer-run-05.png::CompressedTexture2D::1051043400968943949::1690760895::1690760946::1::::<><>::
+adventurer-slide-00.png::CompressedTexture2D::6452966149781420452::1690760895::1690760946::1::::<><>::
+adventurer-slide-01.png::CompressedTexture2D::9017621606566585043::1690760895::1690760946::1::::<><>::
+adventurer-smrslt-00.png::CompressedTexture2D::8410868080078061201::1690760895::1690760945::1::::<><>::
+adventurer-smrslt-01.png::CompressedTexture2D::524834540992765384::1690760896::1690760945::1::::<><>::
+adventurer-smrslt-02.png::CompressedTexture2D::7146384042543859808::1690760896::1690760945::1::::<><>::
+adventurer-smrslt-03.png::CompressedTexture2D::2313870897798179953::1690760896::1690760945::1::::<><>::
+adventurer-stand-00.png::CompressedTexture2D::7246648615096085533::1690760896::1690760945::1::::<><>::
+adventurer-stand-01.png::CompressedTexture2D::3817439960807412837::1690760896::1690760945::1::::<><>::
+adventurer-stand-02.png::CompressedTexture2D::9034126654206460992::1690760896::1690760945::1::::<><>::
+::res://Godot Game Internal/Indvidual Sprites 1.3/::1690761182
+adventurer-attack1-00-1.3.png::CompressedTexture2D::4162532013416505814::1690761060::1690761181::1::::<><>::
+adventurer-attack1-01-1.3.png::CompressedTexture2D::3126506781936859323::1690761060::1690761181::1::::<><>::
+adventurer-attack1-02-1.3.png::CompressedTexture2D::640610979671181254::1690761060::1690761181::1::::<><>::
+adventurer-attack1-03-1.3.png::CompressedTexture2D::3874701894418418334::1690761060::1690761181::1::::<><>::
+adventurer-attack1-04-1.3.png::CompressedTexture2D::7958039218822125114::1690761060::1690761181::1::::<><>::
+adventurer-attack2-00-1.3.png::CompressedTexture2D::1222020998154683117::1690761060::1690761181::1::::<><>::
+adventurer-attack2-01-1.3.png::CompressedTexture2D::5105114179183744968::1690761060::1690761181::1::::<><>::
+adventurer-attack2-02-1.3.png::CompressedTexture2D::4509342434218164575::1690761061::1690761181::1::::<><>::
+adventurer-attack2-03-1.3.png::CompressedTexture2D::5529295915943170925::1690761061::1690761181::1::::<><>::
+adventurer-attack2-04-1.3.png::CompressedTexture2D::5230364878872379987::1690761061::1690761181::1::::<><>::
+adventurer-attack2-05-1.3.png::CompressedTexture2D::3968108121666292704::1690761061::1690761181::1::::<><>::
+adventurer-attack3-00-1.3.png::CompressedTexture2D::1667710387265716586::1690761061::1690761181::1::::<><>::
+adventurer-attack3-01-1.3.png::CompressedTexture2D::3853223624810447600::1690761061::1690761180::1::::<><>::
+adventurer-attack3-02-1.3.png::CompressedTexture2D::383043618108302884::1690761061::1690761180::1::::<><>::
+adventurer-attack3-03-1.3.png::CompressedTexture2D::989376867351114139::1690761061::1690761180::1::::<><>::
+adventurer-attack3-04-1.3.png::CompressedTexture2D::1440071620630836221::1690761061::1690761180::1::::<><>::
+adventurer-attack3-05-1.3.png::CompressedTexture2D::5331617244632168309::1690761061::1690761180::1::::<><>::
+adventurer-crnr-clmb-00-1.3.png::CompressedTexture2D::5399303458153358783::1690761061::1690761180::1::::<><>::
+adventurer-crnr-clmb-01-1.3.png::CompressedTexture2D::5001235631805855613::1690761061::1690761180::1::::<><>::
+adventurer-crnr-clmb-02-1.3.png::CompressedTexture2D::2760729331448315576::1690761061::1690761180::1::::<><>::
+adventurer-crnr-clmb-03-1.3.png::CompressedTexture2D::7227857525399388974::1690761061::1690761180::1::::<><>::
+adventurer-crnr-clmb-04-1.3.png::CompressedTexture2D::7693324620793420284::1690761061::1690761180::1::::<><>::
+adventurer-crnr-grb-00-1.3.png::CompressedTexture2D::3656513151670132746::1690761062::1690761180::1::::<><>::
+adventurer-crnr-grb-01-1.3.png::CompressedTexture2D::1146147952851396490::1690761062::1690761182::1::::<><>::
+adventurer-crnr-grb-02-1.3.png::CompressedTexture2D::4128059193943387268::1690761062::1690761182::1::::<><>::
+adventurer-crnr-grb-03-1.3.png::CompressedTexture2D::6726719965244789743::1690761062::1690761182::1::::<><>::
+adventurer-crnr-jmp-00-1.3.png::CompressedTexture2D::5042814361029061377::1690761062::1690761182::1::::<><>::
+adventurer-crnr-jmp-01-1.3.png::CompressedTexture2D::76767480389336147::1690761062::1690761182::1::::<><>::
+adventurer-crouch-00-1.3.png::CompressedTexture2D::1810443689302951635::1690761062::1690761182::1::::<><>::
+adventurer-crouch-01-1.3.png::CompressedTexture2D::730866169209827153::1690761062::1690761182::1::::<><>::
+adventurer-crouch-02-1.3.png::CompressedTexture2D::4033960616772718505::1690761062::1690761182::1::::<><>::
+adventurer-crouch-03-1.3.png::CompressedTexture2D::228517007021505630::1690761062::1690761182::1::::<><>::
+adventurer-die-00-1.3.png::CompressedTexture2D::848585124162511137::1690761062::1690761181::1::::<><>::
+adventurer-die-01-1.3.png::CompressedTexture2D::8675897819005515971::1690761062::1690761181::1::::<><>::
+adventurer-die-02-1.3.png::CompressedTexture2D::3045084374539230268::1690761062::1690761182::1::::<><>::
+adventurer-die-03-1.3.png::CompressedTexture2D::3208918957801112888::1690761062::1690761182::1::::<><>::
+adventurer-die-04-1.3.png::CompressedTexture2D::4013364977418991309::1690761063::1690761182::1::::<><>::
+adventurer-die-05-1.3.png::CompressedTexture2D::9032561111243478354::1690761063::1690761182::1::::<><>::
+adventurer-die-06-1.3.png::CompressedTexture2D::9223351339317327395::1690761063::1690761182::1::::<><>::
+adventurer-fall-00-1.3.png::CompressedTexture2D::1628076472232375832::1690761063::1690761182::1::::<><>::
+adventurer-fall-01-1.3.png::CompressedTexture2D::7629486154194135829::1690761063::1690761181::1::::<><>::
+adventurer-hurt-00-1.3.png::CompressedTexture2D::8543446582448413719::1690761063::1690761181::1::::<><>::
+adventurer-hurt-01-1.3.png::CompressedTexture2D::7006632904351889281::1690761063::1690761181::1::::<><>::
+adventurer-hurt-02-1.3.png::CompressedTexture2D::3156558273247606125::1690761063::1690761181::1::::<><>::
+adventurer-idle-00-1.3.png::CompressedTexture2D::820851683755968583::1690761063::1690761181::1::::<><>::
+adventurer-idle-01-1.3.png::CompressedTexture2D::2029153903288032818::1690761063::1690761181::1::::<><>::
+adventurer-idle-2-00-1.3.png::CompressedTexture2D::7366289773883329568::1690761063::1690761181::1::::<><>::
+adventurer-idle-2-01-1.3.png::CompressedTexture2D::4055941886925490093::1690761063::1690761178::1::::<><>::
+adventurer-idle-02-1.3.png::CompressedTexture2D::3454149861573443278::1690761063::1690761178::1::::<><>::
+adventurer-idle-2-02-1.3.png::CompressedTexture2D::4033709043843135351::1690761063::1690761178::1::::<><>::
+adventurer-idle-2-03-1.3.png::CompressedTexture2D::8846178472865247674::1690761063::1690761178::1::::<><>::
+adventurer-idle-03-1.3.png::CompressedTexture2D::2212570113924310856::1690761063::1690761177::1::::<><>::
+adventurer-jump-00-1.3.png::CompressedTexture2D::5433857683845877945::1690761064::1690761177::1::::<><>::
+adventurer-jump-01-1.3.png::CompressedTexture2D::8507205437256505455::1690761064::1690761177::1::::<><>::
+adventurer-jump-02-1.3.png::CompressedTexture2D::3590693574009008479::1690761064::1690761177::1::::<><>::
+adventurer-jump-03-1.3.png::CompressedTexture2D::7511887877615970333::1690761064::1690761177::1::::<><>::
+adventurer-ladder-climb-00-1.3.png::CompressedTexture2D::3787347732668926727::1690761064::1690761177::1::::<><>::
+adventurer-ladder-climb-01-1.3.png::CompressedTexture2D::4387535964316386973::1690761064::1690761177::1::::<><>::
+adventurer-ladder-climb-02-1.3.png::CompressedTexture2D::1583429023962841380::1690761064::1690761177::1::::<><>::
+adventurer-ladder-climb-03-1.3.png::CompressedTexture2D::388532667281240758::1690761064::1690761177::1::::<><>::
+adventurer-run-00-1.3.png::CompressedTexture2D::4534738580299942795::1690761064::1690761177::1::::<><>::
+adventurer-run-01-1.3.png::CompressedTexture2D::359242482548602096::1690761064::1690761177::1::::<><>::
+adventurer-run-02-1.3.png::CompressedTexture2D::6914992457981463697::1690761064::1690761177::1::::<><>::
+adventurer-run-03-1.3.png::CompressedTexture2D::5295360879820013257::1690761064::1690761177::1::::<><>::
+adventurer-run-04-1.3.png::CompressedTexture2D::2905551365583883514::1690761064::1690761177::1::::<><>::
+adventurer-run-05-1.3.png::CompressedTexture2D::1972859130163080501::1690761064::1690761177::1::::<><>::
+adventurer-slide-00-1.3.png::CompressedTexture2D::6944342321008306941::1690761064::1690761177::1::::<><>::
+adventurer-slide-01-1.3.png::CompressedTexture2D::8994636456119293305::1690761065::1690761177::1::::<><>::
+adventurer-smrslt-00-1.3.png::CompressedTexture2D::5594581745176515029::1690761065::1690761177::1::::<><>::
+adventurer-smrslt-01-1.3.png::CompressedTexture2D::5799756584134890047::1690761065::1690761177::1::::<><>::
+adventurer-smrslt-02-1.3.png::CompressedTexture2D::3056884474664158300::1690761065::1690761177::1::::<><>::
+adventurer-smrslt-03-1.3.png::CompressedTexture2D::7233913810954873116::1690761065::1690761179::1::::<><>::
+adventurer-stand-00-1.3.png::CompressedTexture2D::7681811611973904746::1690761065::1690761179::1::::<><>::
+adventurer-stand-01-1.3.png::CompressedTexture2D::7709343222822856038::1690761065::1690761179::1::::<><>::
+adventurer-stand-02-1.3.png::CompressedTexture2D::480798532235062795::1690761065::1690761179::1::::<><>::
+adventurer-swim-00-1.3.png::CompressedTexture2D::1724567755867669099::1690761065::1690761179::1::::<><>::
+adventurer-swim-01-1.3.png::CompressedTexture2D::1072161685769471718::1690761065::1690761179::1::::<><>::
+adventurer-swim-02-1.3.png::CompressedTexture2D::8525941762754407338::1690761065::1690761179::1::::<><>::
+adventurer-swim-03-1.3.png::CompressedTexture2D::5151877034989790563::1690761065::1690761179::1::::<><>::
+adventurer-swrd-drw-00-1.3.png::CompressedTexture2D::4203798152523051833::1690761066::1690761178::1::::<><>::
+adventurer-swrd-drw-01-1.3.png::CompressedTexture2D::6452459976154606286::1690761066::1690761178::1::::<><>::
+adventurer-swrd-drw-02-1.3.png::CompressedTexture2D::2652528232561976170::1690761066::1690761178::1::::<><>::
+adventurer-swrd-drw-03-1.3.png::CompressedTexture2D::9014866092652291437::1690761066::1690761178::1::::<><>::
+adventurer-swrd-shte-00-1.3.png::CompressedTexture2D::4518625592729987578::1690761066::1690761178::1::::<><>::
+adventurer-swrd-shte-01-1.3.png::CompressedTexture2D::9199571753377671563::1690761066::1690761178::1::::<><>::
+adventurer-swrd-shte-02-1.3.png::CompressedTexture2D::13544324577990675::1690761066::1690761178::1::::<><>::
+adventurer-swrd-shte-03-1.3.png::CompressedTexture2D::487338890134185235::1690761066::1690761178::1::::<><>::
+adventurer-wall-slide-00-1.3.png::CompressedTexture2D::889680863892561554::1690761066::1690761178::1::::<><>::
+adventurer-wall-slide-01-1.3.png::CompressedTexture2D::6323273165146663830::1690761066::1690761178::1::::<><>::
+adventurer-water-tread-00-1.3.png::CompressedTexture2D::3142498047144643044::1690761066::1690761178::1::::<><>::
+adventurer-water-tread-01-1.3.png::CompressedTexture2D::4612530016885339414::1690761066::1690761178::1::::<><>::
+adventurer-water-tread-02-1.3.png::CompressedTexture2D::9030070283305378792::1690761066::1690761178::1::::<><>::
+adventurer-water-tread-03-1.3.png::CompressedTexture2D::5126980073184426826::1690761066::1690761178::1::::<><>::
+adventurer-water-tread-04-1.3.png::CompressedTexture2D::4986576836320216294::1690761067::1690761178::1::::<><>::
+adventurer-water-tread-05-1.3.png::CompressedTexture2D::7787850184297148846::1690761067::1690761178::1::::<><>::
+::res://Godot Game Internal/Legacy-Fantasy - High Forest 2.3/::1689895942
+::res://Godot Game Internal/Legacy-Fantasy - High Forest 2.3/Assets/::1690760945
+Buildings.png::CompressedTexture2D::1878860829984385039::1689895937::1690760945::1::::<><>::
+Hive.png::CompressedTexture2D::1088838116564193655::1689895937::1690760945::1::::<><>::
+Interior-01.png::CompressedTexture2D::2254632870838027070::1689895937::1690760945::1::::<><>::
+Props-Rocks.png::CompressedTexture2D::7060497380905112418::1689895937::1690760945::1::::<><>::
+Tiles.png::CompressedTexture2D::2407678227427284062::1689895937::1690760945::1::::<><>::
+Tree-Assets.png::CompressedTexture2D::4500921133888857125::1689895937::1690760945::1::::<><>::
+::res://Godot Game Internal/Legacy-Fantasy - High Forest 2.3/Background/::1690760945
+Background.png::CompressedTexture2D::7614936255867571558::1689895938::1690760945::1::::<><>::
+::res://Godot Game Internal/Legacy-Fantasy - High Forest 2.3/Character/::1689895939
+::res://Godot Game Internal/Legacy-Fantasy - High Forest 2.3/Character/Attack-01/::1690760945
+Attack-01-Sheet.png::CompressedTexture2D::4795757592964748427::1689895938::1690760945::1::::<><>::
+::res://Godot Game Internal/Legacy-Fantasy - High Forest 2.3/Character/Dead/::1690760945
+Dead-Sheet.png::CompressedTexture2D::2812275919970750272::1689895938::1690760945::1::::<><>::
+::res://Godot Game Internal/Legacy-Fantasy - High Forest 2.3/Character/Idle/::1690760945
+Idle-Sheet.png::CompressedTexture2D::2050752204335228216::1689895938::1690760945::1::::<><>::
+::res://Godot Game Internal/Legacy-Fantasy - High Forest 2.3/Character/Jumlp-All/::1690760945
+Jump-All-Sheet.png::CompressedTexture2D::1979583769385965727::1689895938::1690760945::1::::<><>::
+::res://Godot Game Internal/Legacy-Fantasy - High Forest 2.3/Character/Jump/::1689895939
+::res://Godot Game Internal/Legacy-Fantasy - High Forest 2.3/Character/Jump-End/::1690760945
+Jump-End-Sheet.png::CompressedTexture2D::2322202373555611800::1689895939::1690760945::1::::<><>::
+::res://Godot Game Internal/Legacy-Fantasy - High Forest 2.3/Character/Jump-Start/::1690760945
+Jump-Start-Sheet.png::CompressedTexture2D::6011529517675784054::1689895939::1690760945::1::::<><>::
+::res://Godot Game Internal/Legacy-Fantasy - High Forest 2.3/Character/Run/::1690760948
+Run-Sheet.png::CompressedTexture2D::8162552783153917361::1689895939::1690760947::1::::<><>::
+::res://Godot Game Internal/Legacy-Fantasy - High Forest 2.3/HUD/::1690760947
+Base-01.png::CompressedTexture2D::2524353515227459469::1689895940::1690760947::1::::<><>::
+::res://Godot Game Internal/Legacy-Fantasy - High Forest 2.3/Mob/::1689895942
+::res://Godot Game Internal/Legacy-Fantasy - High Forest 2.3/Mob/Boar/::1689895941
+::res://Godot Game Internal/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Hit-Vanish/::1690760947
+Hit-Sheet-Black.png::CompressedTexture2D::6270255790340673553::1689895940::1690760947::1::::<><>::
+Hit-Sheet-White.png::CompressedTexture2D::7038499173629609144::1689895940::1690760947::1::::<><>::
+Hit-Sheet.png::CompressedTexture2D::7539666086366043751::1689895940::1690760947::1::::<><>::
+::res://Godot Game Internal/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Idle/::1690760947
+Idle-Sheet-export-Back.png::CompressedTexture2D::6776517417226264223::1689895940::1690760947::1::::<><>::
+Idle-Sheet-White.png::CompressedTexture2D::3506566736144734479::1689895940::1690760947::1::::<><>::
+Idle-Sheet.png::CompressedTexture2D::9101653918870790003::1689895940::1690760947::1::::<><>::
+::res://Godot Game Internal/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Run/::1690760947
+Run-Sheet-Black.png::CompressedTexture2D::3308944569309496318::1689895941::1690760947::1::::<><>::
+Run-Sheet-White.png::CompressedTexture2D::6433911438128730786::1689895941::1690760947::1::::<><>::
+Run-Sheet.png::CompressedTexture2D::4817759332891004915::1689895941::1690760947::1::::<><>::
+::res://Godot Game Internal/Legacy-Fantasy - High Forest 2.3/Mob/Boar/Walk/::1690760947
+Walk-Base-Sheet-White.png::CompressedTexture2D::6715518081122759149::1689895941::1690760947::1::::<><>::
+Walk-Base-Sheet.png::CompressedTexture2D::2164179340127075522::1689895941::1690760947::1::::<><>::
+Walk-Base-SheetBlack.png::CompressedTexture2D::3585092404508494131::1689895941::1690760947::1::::<><>::
+::res://Godot Game Internal/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/::1689895941
+::res://Godot Game Internal/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/Attack/::1690760947
+Attack-Sheet.png::CompressedTexture2D::2940484463470075540::1689895941::1690760947::1::::<><>::
+::res://Godot Game Internal/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/Fly/::1690760947
+Fly-Sheet.png::CompressedTexture2D::1058103688078592668::1689895941::1690760947::1::::<><>::
+::res://Godot Game Internal/Legacy-Fantasy - High Forest 2.3/Mob/Small Bee/Hit/::1690760946
+Hit-Sheet.png::CompressedTexture2D::2111627990338854537::1689895942::1690760946::1::::<><>::
+::res://Godot Game Internal/Legacy-Fantasy - High Forest 2.3/Mob/Snail/::1690760946
+all.png::CompressedTexture2D::7093707820432300710::1689895942::1690760946::1::::<><>::
+Dead-Sheet.png::CompressedTexture2D::2839028066949722510::1689895942::1690760946::1::::<><>::
+Hide-Sheet.png::CompressedTexture2D::5096139614908080896::1689895942::1690760946::1::::<><>::
+walk-Sheet.png::CompressedTexture2D::2138993371011618180::1689895942::1690760946::1::::<><>::
+::res://Godot Game Internal/Legacy-Fantasy - High Forest 2.3/Trees/::1690760946
+Background.png::CompressedTexture2D::1793555499928049136::1689895942::1690760946::1::::<><>::
+Dark-Tree.png::CompressedTexture2D::2772949485156790114::1689895942::1690760946::1::::<><>::
+Golden-Tree.png::CompressedTexture2D::7062911476154696072::1689895943::1690760946::1::::<><>::
+Green-Tree.png::CompressedTexture2D::8829927178752239608::1689895943::1690760946::1::::<><>::
+Red-Tree.png::CompressedTexture2D::4490489277801419197::1689895943::1690760946::1::::<><>::
+Yellow-Tree.png::CompressedTexture2D::7758691352027821007::1689895943::1690760946::1::::<><>::
+::res://Scenes/::1690762941
+player_(_mc_).tscn::PackedScene::3105799145263142598::1690762940::0::1::::<><>::res://Player ( MC ).gd<>uid://we8wsr3jxo6o::::res://Sprites/adventurer-idle-00.png<>uid://duxpbohnd7ceg::::res://Sprites/adventurer-idle-01.png<>uid://b2c4c0eygwoon::::res://Sprites/adventurer-idle-02.png<>uid://4w5dr6u7mfr5::::res://Sprites/adventurer-run-00.png<>uid://c55nb1att0ruh::::res://Sprites/adventurer-run-01.png<>uid://0r7fcn2hqiuw::::res://Sprites/adventurer-run-02.png<>uid://bxkk4olxanl6l::::res://Sprites/adventurer-run-03.png<>uid://be3wnhfa5ioqf::::res://Sprites/adventurer-run-04.png<>uid://dbdnvjmisxowo::::res://Sprites/adventurer-run-05.png
+world.tscn::PackedScene::8613079977787531364::1690762941::0::1::::<><>::uid://bkiqb8h5x2wmo::::res://Scenes/player_(_mc_).tscn
+::res://Sprites/::1690763000
+adventurer-idle-00.png::CompressedTexture2D::1554455992247270380::1690761268::1690761275::1::::<><>::
+adventurer-idle-01.png::CompressedTexture2D::8611432899605190182::1690761268::1690761275::1::::<><>::
+adventurer-idle-02.png::CompressedTexture2D::4287413902168453041::1690761268::1690761275::1::::<><>::
+adventurer-jump-00.png::CompressedTexture2D::5749053869878516226::1690763000::1690763005::1::::<><>::
+adventurer-jump-01.png::CompressedTexture2D::6044428643567612651::1690763000::1690763005::1::::<><>::
+adventurer-jump-02.png::CompressedTexture2D::1340302162407701618::1690763000::1690763005::1::::<><>::
+adventurer-jump-03.png::CompressedTexture2D::4174474325002067839::1690763000::1690763005::1::::<><>::
+adventurer-run-00.png::CompressedTexture2D::2082720584994801428::1690761453::1690761457::1::::<><>::
+adventurer-run-01.png::CompressedTexture2D::6941230482345605963::1690761453::1690761457::1::::<><>::
+adventurer-run-02.png::CompressedTexture2D::1791767511873784430::1690761453::1690761457::1::::<><>::
+adventurer-run-03.png::CompressedTexture2D::4022067576224640349::1690761453::1690761457::1::::<><>::
+adventurer-run-04.png::CompressedTexture2D::2726337999948424509::1690761454::1690761457::1::::<><>::
+adventurer-run-05.png::CompressedTexture2D::7236471342193744394::1690761453::1690761457::1::::<><>::
