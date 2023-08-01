@@ -37,19 +37,10 @@ animations = [{
 }, {
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("5_i74w1")
-}, {
-"duration": 1.0,
-"texture": ExtResource("6_ec8u5")
-}, {
-"duration": 1.0,
 "texture": ExtResource("7_hsk35")
 }, {
 "duration": 1.0,
 "texture": ExtResource("8_5kljx")
-}, {
-"duration": 1.0,
-"texture": ExtResource("7_hsk35")
 }, {
 "duration": 1.0,
 "texture": ExtResource("6_ec8u5")
@@ -57,7 +48,7 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("5_i74w1")
 }],
-"loop": true,
+"loop": false,
 "name": &"Jump",
 "speed": 5.0
 }, {
@@ -95,5 +86,3 @@ shape = SubResource("CapsuleShape2D_f8bob")
 sprite_frames = SubResource("SpriteFrames_36b8n")
 animation = &"Jump"
 autoplay = "Idle1"
-frame = 5
-frame_progress = 0.324839
