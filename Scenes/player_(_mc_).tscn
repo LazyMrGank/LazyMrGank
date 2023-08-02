@@ -16,8 +16,8 @@
 [ext_resource type="Texture2D" uid="uid://dbdnvjmisxowo" path="res://Sprites/adventurer-run-05.png" id="10_tgmf0"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_f8bob"]
-radius = 13.0
-height = 44.0
+radius = 28.0
+height = 82.0
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_36b8n"]
 animations = [{
@@ -83,6 +83,10 @@ script = ExtResource("1_uwnhl")
 shape = SubResource("CapsuleShape2D_f8bob")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-2, -4)
+scale = Vector2(2.3, 2.63514)
 sprite_frames = SubResource("SpriteFrames_36b8n")
 animation = &"Jump"
 autoplay = "Idle1"
+
+[node name="Camera2D" type="Camera2D" parent="."]
