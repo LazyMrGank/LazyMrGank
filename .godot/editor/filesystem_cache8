@@ -1,7 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1690944513
+::res://::1691096669
 icon.svg::CompressedTexture2D::955579484609392078::1690406806::1690406812::1::::<><>::
-Player ( MC ).gd::GDScript::-1::1690850355::0::1::::<>CharacterBody2D<>::
+Player ( MC ).gd::GDScript::-1::1690944624::0::1::::<>CharacterBody2D<>::
 ::res://Godot Game Internal/::1690761181
 adventurer-1.3-Sheet.png::CompressedTexture2D::4887043739410086085::1690761060::1690761181::1::::<><>::
 adventurer-Sheet.png::CompressedTexture2D::799202399137552394::1690760890::1690760946::1::::<><>::
@@ -239,10 +239,10 @@ Golden-Tree.png::CompressedTexture2D::7062911476154696072::1689895943::169076094
 Green-Tree.png::CompressedTexture2D::8829927178752239608::1689895943::1690760946::1::::<><>::
 Red-Tree.png::CompressedTexture2D::4490489277801419197::1689895943::1690760946::1::::<><>::
 Yellow-Tree.png::CompressedTexture2D::7758691352027821007::1689895943::1690760946::1::::<><>::
-::res://Scenes/::1690944482
-player_(_mc_).tscn::PackedScene::3105799145263142598::1690944481::0::1::::<><>::res://Player ( MC ).gd<>uid://we8wsr3jxo6o::::res://Sprites/adventurer-idle-00.png<>uid://duxpbohnd7ceg::::res://Sprites/adventurer-idle-01.png<>uid://b2c4c0eygwoon::::res://Sprites/adventurer-idle-02.png<>uid://4w5dr6u7mfr5::::res://Sprites/adventurer-run-00.png<>uid://cn55cvl15rng1::::res://Sprites/adventurer-jump-00.png<>uid://c55nb1att0ruh::::res://Sprites/adventurer-run-01.png<>uid://csd74ekch51kp::::res://Sprites/adventurer-jump-01.png<>uid://tdit0nsjm5h3::::res://Sprites/adventurer-jump-02.png<>uid://0r7fcn2hqiuw::::res://Sprites/adventurer-run-02.png<>uid://b0qe8np0i2plv::::res://Sprites/adventurer-jump-03.png<>uid://bxkk4olxanl6l::::res://Sprites/adventurer-run-03.png<>uid://be3wnhfa5ioqf::::res://Sprites/adventurer-run-04.png<>uid://dbdnvjmisxowo::::res://Sprites/adventurer-run-05.png
-world.tscn::PackedScene::8613079977787531364::1690944482::0::1::::<><>::uid://cy18tvin22vgd::::res://Sprites/Background.png<>uid://bkiqb8h5x2wmo::::res://Scenes/player_(_mc_).tscn<>uid://cilnom4p2ceut::::res://Sprites/Tiles.png
-::res://Sprites/::1690942010
+::res://Scenes/::1691099100
+player_(_mc_).tscn::PackedScene::3105799145263142598::1691099100::0::1::::<><>::res://Player ( MC ).gd<>uid://we8wsr3jxo6o::::res://Sprites/adventurer-idle-00.png<>uid://duxpbohnd7ceg::::res://Sprites/adventurer-idle-01.png<>uid://b2c4c0eygwoon::::res://Sprites/adventurer-idle-02.png<>uid://4w5dr6u7mfr5::::res://Sprites/adventurer-run-00.png<>uid://cn55cvl15rng1::::res://Sprites/adventurer-jump-00.png<>uid://c55nb1att0ruh::::res://Sprites/adventurer-run-01.png<>uid://csd74ekch51kp::::res://Sprites/adventurer-jump-01.png<>uid://tdit0nsjm5h3::::res://Sprites/adventurer-jump-02.png<>uid://0r7fcn2hqiuw::::res://Sprites/adventurer-run-02.png<>uid://b0qe8np0i2plv::::res://Sprites/adventurer-jump-03.png<>uid://bxkk4olxanl6l::::res://Sprites/adventurer-run-03.png<>uid://be3wnhfa5ioqf::::res://Sprites/adventurer-run-04.png<>uid://dbdnvjmisxowo::::res://Sprites/adventurer-run-05.png
+world.tscn::PackedScene::8613079977787531364::1691099100::0::1::::<><>::uid://bkiqb8h5x2wmo::::res://Scenes/player_(_mc_).tscn<>uid://cilnom4p2ceut::::res://Sprites/Tiles.png
+::res://Sprites/::1691099491
 adventurer-idle-00.png::CompressedTexture2D::1554455992247270380::1690761268::1690761275::1::::<><>::
 adventurer-idle-01.png::CompressedTexture2D::8611432899605190182::1690761268::1690761275::1::::<><>::
 adventurer-idle-02.png::CompressedTexture2D::4287413902168453041::1690761268::1690761275::1::::<><>::
@@ -257,4 +257,4 @@ adventurer-run-03.png::CompressedTexture2D::4022067576224640349::1690761453::169
 adventurer-run-04.png::CompressedTexture2D::2726337999948424509::1690761454::1690761457::1::::<><>::
 adventurer-run-05.png::CompressedTexture2D::7236471342193744394::1690761453::1690761457::1::::<><>::
 Background.png::CompressedTexture2D::6513086143126635467::1690941846::1690941850::1::::<><>::
-Tiles.png::CompressedTexture2D::5357875269602977451::1690942006::1690942010::1::::<><>::
+tiles.png::CompressedTexture2D::5357875269602977451::1691099491::1691099506::1::::<><>::
