@@ -1,8 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1691450644
+::res://::1691544103
+Enemy.gd::GDScript::-1::1691543858::0::1::::<>Area2D<>::
 icon.svg::CompressedTexture2D::955579484609392078::1690406806::1690406812::1::::<><>::
-Player ( MC ).gd::GDScript::-1::1690944624::0::1::::<>CharacterBody2D<>::
-::res://Godot Game Internal/::1690761181
+Player ( MC ).gd::GDScript::-1::1691454278::0::1::::<>CharacterBody2D<>::
+::res://Godot Game Internal/::1691542338
 adventurer-1.3-Sheet.png::CompressedTexture2D::4887043739410086085::1690761060::1690761181::1::::<><>::
 adventurer-Sheet.png::CompressedTexture2D::799202399137552394::1690760890::1690760946::1::::<><>::
 ::res://Godot Game Internal/Individual Sprites/::1690760982
@@ -182,7 +183,7 @@ Interior-01.png::CompressedTexture2D::2254632870838027070::1689895937::169076094
 Props-Rocks.png::CompressedTexture2D::7060497380905112418::1689895937::1690760945::1::::<><>::
 Tiles.png::CompressedTexture2D::2407678227427284062::1689895937::1690760945::1::::<><>::
 Tree-Assets.png::CompressedTexture2D::4500921133888857125::1689895937::1690760945::1::::<><>::
-::res://Godot Game Internal/Legacy-Fantasy - High Forest 2.3/Background/::1690760945
+::res://Godot Game Internal/Legacy-Fantasy - High Forest 2.3/Background/::1691542070
 Background.png::CompressedTexture2D::7614936255867571558::1689895938::1690760945::1::::<><>::
 ::res://Godot Game Internal/Legacy-Fantasy - High Forest 2.3/Character/::1689895939
 ::res://Godot Game Internal/Legacy-Fantasy - High Forest 2.3/Character/Attack-01/::1690760945
@@ -239,10 +240,50 @@ Golden-Tree.png::CompressedTexture2D::7062911476154696072::1689895943::169076094
 Green-Tree.png::CompressedTexture2D::8829927178752239608::1689895943::1690760946::1::::<><>::
 Red-Tree.png::CompressedTexture2D::4490489277801419197::1689895943::1690760946::1::::<><>::
 Yellow-Tree.png::CompressedTexture2D::7758691352027821007::1689895943::1690760946::1::::<><>::
-::res://Scenes/::1691362819
-player_(_mc_).tscn::PackedScene::3105799145263142598::1691362818::0::1::::<><>::res://Player ( MC ).gd<>uid://we8wsr3jxo6o::::res://Sprites/adventurer-idle-00.png<>uid://duxpbohnd7ceg::::res://Sprites/adventurer-idle-01.png<>uid://b2c4c0eygwoon::::res://Sprites/adventurer-idle-02.png<>uid://4w5dr6u7mfr5::::res://Sprites/adventurer-run-00.png<>uid://cn55cvl15rng1::::res://Sprites/adventurer-jump-00.png<>uid://c55nb1att0ruh::::res://Sprites/adventurer-run-01.png<>uid://csd74ekch51kp::::res://Sprites/adventurer-jump-01.png<>uid://tdit0nsjm5h3::::res://Sprites/adventurer-jump-02.png<>uid://0r7fcn2hqiuw::::res://Sprites/adventurer-run-02.png<>uid://b0qe8np0i2plv::::res://Sprites/adventurer-jump-03.png<>uid://bxkk4olxanl6l::::res://Sprites/adventurer-run-03.png<>uid://be3wnhfa5ioqf::::res://Sprites/adventurer-run-04.png<>uid://dbdnvjmisxowo::::res://Sprites/adventurer-run-05.png
-world.tscn::PackedScene::8613079977787531364::1691362819::0::1::::<><>::uid://bkiqb8h5x2wmo::::res://Scenes/player_(_mc_).tscn<>uid://cilnom4p2ceut::::res://Sprites/Tiles.png
-::res://Sprites/::1691360240
+::res://Godot Game Internal/Monsters_Creatures_Fantasy/::1691542384
+All Characters.png::CompressedTexture2D::9212145117838030578::1691542338::1691542384::1::::<><>::
+::res://Godot Game Internal/Monsters_Creatures_Fantasy/Flying eye/::1691542385
+Attack.png::CompressedTexture2D::7594779612141295041::1691542338::1691542384::1::::<><>::
+Death.png::CompressedTexture2D::7692651489858495913::1691542338::1691542384::1::::<><>::
+Flight.png::CompressedTexture2D::3121600657756526624::1691542338::1691542384::1::::<><>::
+Take Hit.png::CompressedTexture2D::4796985546285779538::1691542339::1691542385::1::::<><>::
+::res://Godot Game Internal/Monsters_Creatures_Fantasy/Goblin/::1691542385
+Attack.png::CompressedTexture2D::7502082241173929036::1691542339::1691542384::1::::<><>::
+Death.png::CompressedTexture2D::8341787327669193439::1691542339::1691542384::1::::<><>::
+Idle.png::CompressedTexture2D::6797441119113914943::1691542339::1691542384::1::::<><>::
+Run.png::CompressedTexture2D::3364794222647545393::1691542339::1691542384::1::::<><>::
+Take Hit.png::CompressedTexture2D::4736443886861329292::1691542339::1691542384::1::::<><>::
+::res://Godot Game Internal/Monsters_Creatures_Fantasy/Mushroom/::1691542384
+Attack.png::CompressedTexture2D::700482803254240146::1691542339::1691542384::1::::<><>::
+Death.png::CompressedTexture2D::1843066747608296707::1691542339::1691542384::1::::<><>::
+Idle.png::CompressedTexture2D::2562951724732179590::1691542339::1691542384::1::::<><>::
+Run.png::CompressedTexture2D::7750848139611658596::1691542339::1691542384::1::::<><>::
+Take Hit.png::CompressedTexture2D::6114921077674085308::1691542339::1691542384::1::::<><>::
+::res://Godot Game Internal/Monsters_Creatures_Fantasy/Skeleton/::1691542384
+Attack.png::CompressedTexture2D::235131032472193935::1691542339::1691542384::1::::<><>::
+Death.png::CompressedTexture2D::5424358796679498299::1691542340::1691542384::1::::<><>::
+Idle.png::CompressedTexture2D::7165412439538824390::1691542340::1691542384::1::::<><>::
+Shield.png::CompressedTexture2D::7543518765055434079::1691542340::1691542384::1::::<><>::
+Take Hit.png::CompressedTexture2D::6114609681230625940::1691542340::1691542384::1::::<><>::
+Walk.png::CompressedTexture2D::8598260319252790557::1691542340::1691542384::1::::<><>::
+::res://Godot Game Internal/Monster_Creatures_Fantasy(Version 1.3)/::1691542268
+::res://Godot Game Internal/Monster_Creatures_Fantasy(Version 1.3)/Flying eye/::1691542384
+Attack3.png::CompressedTexture2D::3688729119869313541::1691542267::1691542384::1::::<><>::
+projectile_sprite.png::CompressedTexture2D::5225790932381534126::1691542268::1691542384::1::::<><>::
+::res://Godot Game Internal/Monster_Creatures_Fantasy(Version 1.3)/Goblin/::1691542412
+Attack3.png::CompressedTexture2D::4316809257485927456::1691542268::1691542384::1::::<><>::
+Bomb_sprite.png::CompressedTexture2D::8717890771289397130::1691542268::1691542384::1::::<><>::
+::res://Godot Game Internal/Monster_Creatures_Fantasy(Version 1.3)/Mushroom/::1691542384
+Attack3.png::CompressedTexture2D::2315866783179855630::1691542268::1691542384::1::::<><>::
+Projectile_sprite.png::CompressedTexture2D::3541504304561657023::1691542268::1691542384::1::::<><>::
+::res://Godot Game Internal/Monster_Creatures_Fantasy(Version 1.3)/Skeleton/::1691542384
+Attack3.png::CompressedTexture2D::8230004705694747021::1691542268::1691542384::1::::<><>::
+Sword_sprite.png::CompressedTexture2D::4777332485787812849::1691542268::1691542384::1::::<><>::
+::res://Scenes/::1691544087
+enemy.tscn::PackedScene::2807213751560730063::1691543983::0::1::::<><>::res://Enemy.gd<>uid://bm2rvej6vd3cj::::res://Sprites/Idle.png
+player_(_mc_).tscn::PackedScene::3105799145263142598::1691543983::0::1::::<><>::res://Player ( MC ).gd<>uid://we8wsr3jxo6o::::res://Sprites/adventurer-idle-00.png<>uid://duxpbohnd7ceg::::res://Sprites/adventurer-idle-01.png<>uid://b2c4c0eygwoon::::res://Sprites/adventurer-idle-02.png<>uid://4w5dr6u7mfr5::::res://Sprites/adventurer-run-00.png<>uid://cn55cvl15rng1::::res://Sprites/adventurer-jump-00.png<>uid://c55nb1att0ruh::::res://Sprites/adventurer-run-01.png<>uid://csd74ekch51kp::::res://Sprites/adventurer-jump-01.png<>uid://tdit0nsjm5h3::::res://Sprites/adventurer-jump-02.png<>uid://0r7fcn2hqiuw::::res://Sprites/adventurer-run-02.png<>uid://b0qe8np0i2plv::::res://Sprites/adventurer-jump-03.png<>uid://bxkk4olxanl6l::::res://Sprites/adventurer-run-03.png<>uid://be3wnhfa5ioqf::::res://Sprites/adventurer-run-04.png<>uid://dbdnvjmisxowo::::res://Sprites/adventurer-run-05.png
+world.tscn::PackedScene::8613079977787531364::1691543983::0::1::::<><>::uid://cy18tvin22vgd::::res://Sprites/Background.png<>uid://bkiqb8h5x2wmo::::res://Scenes/player_(_mc_).tscn<>uid://cilnom4p2ceut::::res://Sprites/Tiles.png<>uid://bf83nu2k8cnwp::::res://Scenes/enemy.tscn
+::res://Sprites/::1691544103
 adventurer-idle-00.png::CompressedTexture2D::1554455992247270380::1690761268::1690761275::1::::<><>::
 adventurer-idle-01.png::CompressedTexture2D::8611432899605190182::1690761268::1690761275::1::::<><>::
 adventurer-idle-02.png::CompressedTexture2D::4287413902168453041::1690761268::1690761275::1::::<><>::
@@ -257,4 +298,6 @@ adventurer-run-03.png::CompressedTexture2D::4022067576224640349::1690761453::169
 adventurer-run-04.png::CompressedTexture2D::2726337999948424509::1690761454::1690761457::1::::<><>::
 adventurer-run-05.png::CompressedTexture2D::7236471342193744394::1690761453::1690761457::1::::<><>::
 Background.png::CompressedTexture2D::6513086143126635467::1690941846::1690941850::1::::<><>::
+Idle.png::CompressedTexture2D::3285494922691488197::1691542442::1691542447::1::::<><>::
+Run.png::CompressedTexture2D::4025634096605852499::1691544068::1691544108::1::::<><>::
 Tiles.png::CompressedTexture2D::5357875269602977451::1691360236::1691360240::1::::<><>::

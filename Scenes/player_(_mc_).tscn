@@ -16,8 +16,8 @@
 [ext_resource type="Texture2D" uid="uid://dbdnvjmisxowo" path="res://Sprites/adventurer-run-05.png" id="10_tgmf0"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_f8bob"]
-radius = 28.0
-height = 82.0
+radius = 16.0
+height = 64.0
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_36b8n"]
 animations = [{
@@ -76,7 +76,7 @@ animations = [{
 "speed": 5.0
 }]
 
-[node name="Player ( MC )" type="CharacterBody2D"]
+[node name="Player ( MC )" type="CharacterBody2D" groups=["Player"]]
 script = ExtResource("1_uwnhl")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
