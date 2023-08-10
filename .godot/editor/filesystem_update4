@@ -1,4 +1,5 @@
-res://Scenes/world.tscn
-res://Enemy.gd
 res://Scenes/player_(_mc_).tscn
+res://Scenes/world.tscn
 res://Scenes/enemy.tscn
+res://Enemy.gd
+res://Player ( MC ).gd

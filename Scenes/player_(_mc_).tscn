@@ -1,16 +1,23 @@
-[gd_scene load_steps=17 format=3 uid="uid://bkiqb8h5x2wmo"]
+[gd_scene load_steps=25 format=3 uid="uid://bkiqb8h5x2wmo"]
 
 [ext_resource type="Script" path="res://Player ( MC ).gd" id="1_uwnhl"]
+[ext_resource type="Texture2D" uid="uid://c7qf18qkeu3dd" path="res://Sprites/adventurer-die-00-1.3.png" id="2_0lrlr"]
 [ext_resource type="Texture2D" uid="uid://we8wsr3jxo6o" path="res://Sprites/adventurer-idle-00.png" id="2_nlxce"]
+[ext_resource type="Texture2D" uid="uid://crgn0e0uey1l2" path="res://Sprites/adventurer-die-01-1.3.png" id="3_e24ho"]
 [ext_resource type="Texture2D" uid="uid://duxpbohnd7ceg" path="res://Sprites/adventurer-idle-01.png" id="3_jvv74"]
 [ext_resource type="Texture2D" uid="uid://b2c4c0eygwoon" path="res://Sprites/adventurer-idle-02.png" id="4_0xwsu"]
+[ext_resource type="Texture2D" uid="uid://dqed85shgyxe2" path="res://Sprites/adventurer-die-02-1.3.png" id="4_165ot"]
+[ext_resource type="Texture2D" uid="uid://bf850dxd78fri" path="res://Sprites/adventurer-die-03-1.3.png" id="5_cmx3s"]
 [ext_resource type="Texture2D" uid="uid://4w5dr6u7mfr5" path="res://Sprites/adventurer-run-00.png" id="5_hhhtq"]
 [ext_resource type="Texture2D" uid="uid://cn55cvl15rng1" path="res://Sprites/adventurer-jump-00.png" id="5_i74w1"]
 [ext_resource type="Texture2D" uid="uid://c55nb1att0ruh" path="res://Sprites/adventurer-run-01.png" id="6_425qp"]
 [ext_resource type="Texture2D" uid="uid://csd74ekch51kp" path="res://Sprites/adventurer-jump-01.png" id="6_ec8u5"]
+[ext_resource type="Texture2D" uid="uid://fokarfgcg08" path="res://Sprites/adventurer-die-04-1.3.png" id="6_n5rfs"]
 [ext_resource type="Texture2D" uid="uid://tdit0nsjm5h3" path="res://Sprites/adventurer-jump-02.png" id="7_hsk35"]
+[ext_resource type="Texture2D" uid="uid://4r8ylb4s78fa" path="res://Sprites/adventurer-die-05-1.3.png" id="7_iflt3"]
 [ext_resource type="Texture2D" uid="uid://0r7fcn2hqiuw" path="res://Sprites/adventurer-run-02.png" id="7_ku2im"]
 [ext_resource type="Texture2D" uid="uid://b0qe8np0i2plv" path="res://Sprites/adventurer-jump-03.png" id="8_5kljx"]
+[ext_resource type="Texture2D" uid="uid://0kexwxsu6ftp" path="res://Sprites/adventurer-die-06-1.3.png" id="8_cjupt"]
 [ext_resource type="Texture2D" uid="uid://bxkk4olxanl6l" path="res://Sprites/adventurer-run-03.png" id="8_tvwtb"]
 [ext_resource type="Texture2D" uid="uid://be3wnhfa5ioqf" path="res://Sprites/adventurer-run-04.png" id="9_2i3vy"]
 [ext_resource type="Texture2D" uid="uid://dbdnvjmisxowo" path="res://Sprites/adventurer-run-05.png" id="10_tgmf0"]
@@ -21,6 +28,32 @@ height = 64.0
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_36b8n"]
 animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_0lrlr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_e24ho")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_165ot")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_cmx3s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_n5rfs")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_iflt3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_cjupt")
+}],
+"loop": false,
+"name": &"Death",
+"speed": 3.0
+}, {
 "frames": [{
 "duration": 1.0,
 "texture": ExtResource("2_nlxce")
@@ -76,6 +109,10 @@ animations = [{
 "speed": 5.0
 }]
 
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_wf17n"]
+radius = 11.0
+height = 52.0
+
 [node name="Player ( MC )" type="CharacterBody2D" groups=["Player"]]
 script = ExtResource("1_uwnhl")
 
@@ -86,7 +123,20 @@ shape = SubResource("CapsuleShape2D_f8bob")
 position = Vector2(-2, -4)
 scale = Vector2(2.3, 2.63514)
 sprite_frames = SubResource("SpriteFrames_36b8n")
-animation = &"Jump"
+animation = &"Death"
 autoplay = "Idle1"
+frame = 6
+frame_progress = 1.0
 
 [node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="Hitbox" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Hitbox"]
+shape = SubResource("CapsuleShape2D_wf17n")
+
+[node name="Timer" type="Timer" parent="."]
+wait_time = 1.975
+
+[connection signal="area_entered" from="Hitbox" to="." method="_on_hitbox_area_entered"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

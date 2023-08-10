@@ -1,8 +1,8 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1691544103
-Enemy.gd::GDScript::-1::1691543858::0::1::::<>Area2D<>::
+::res://::1691634540
+Enemy.gd::GDScript::-1::1691632887::0::1::::<>Area2D<>::
 icon.svg::CompressedTexture2D::955579484609392078::1690406806::1690406812::1::::<><>::
-Player ( MC ).gd::GDScript::-1::1691454278::0::1::::<>CharacterBody2D<>::
+Player ( MC ).gd::GDScript::-1::1691634540::0::1::::<>CharacterBody2D<>::
 ::res://Godot Game Internal/::1691542338
 adventurer-1.3-Sheet.png::CompressedTexture2D::4887043739410086085::1690761060::1690761181::1::::<><>::
 adventurer-Sheet.png::CompressedTexture2D::799202399137552394::1690760890::1690760946::1::::<><>::
@@ -279,11 +279,18 @@ Projectile_sprite.png::CompressedTexture2D::3541504304561657023::1691542268::169
 ::res://Godot Game Internal/Monster_Creatures_Fantasy(Version 1.3)/Skeleton/::1691542384
 Attack3.png::CompressedTexture2D::8230004705694747021::1691542268::1691542384::1::::<><>::
 Sword_sprite.png::CompressedTexture2D::4777332485787812849::1691542268::1691542384::1::::<><>::
-::res://Scenes/::1691544087
-enemy.tscn::PackedScene::2807213751560730063::1691543983::0::1::::<><>::res://Enemy.gd<>uid://bm2rvej6vd3cj::::res://Sprites/Idle.png
-player_(_mc_).tscn::PackedScene::3105799145263142598::1691543983::0::1::::<><>::res://Player ( MC ).gd<>uid://we8wsr3jxo6o::::res://Sprites/adventurer-idle-00.png<>uid://duxpbohnd7ceg::::res://Sprites/adventurer-idle-01.png<>uid://b2c4c0eygwoon::::res://Sprites/adventurer-idle-02.png<>uid://4w5dr6u7mfr5::::res://Sprites/adventurer-run-00.png<>uid://cn55cvl15rng1::::res://Sprites/adventurer-jump-00.png<>uid://c55nb1att0ruh::::res://Sprites/adventurer-run-01.png<>uid://csd74ekch51kp::::res://Sprites/adventurer-jump-01.png<>uid://tdit0nsjm5h3::::res://Sprites/adventurer-jump-02.png<>uid://0r7fcn2hqiuw::::res://Sprites/adventurer-run-02.png<>uid://b0qe8np0i2plv::::res://Sprites/adventurer-jump-03.png<>uid://bxkk4olxanl6l::::res://Sprites/adventurer-run-03.png<>uid://be3wnhfa5ioqf::::res://Sprites/adventurer-run-04.png<>uid://dbdnvjmisxowo::::res://Sprites/adventurer-run-05.png
-world.tscn::PackedScene::8613079977787531364::1691543983::0::1::::<><>::uid://cy18tvin22vgd::::res://Sprites/Background.png<>uid://bkiqb8h5x2wmo::::res://Scenes/player_(_mc_).tscn<>uid://cilnom4p2ceut::::res://Sprites/Tiles.png<>uid://bf83nu2k8cnwp::::res://Scenes/enemy.tscn
-::res://Sprites/::1691544103
+::res://Scenes/::1691636100
+enemy.tscn::PackedScene::2807213751560730063::1691636100::0::1::::<><>::res://Enemy.gd<>uid://bm2rvej6vd3cj::::res://Sprites/Idle.png<>uid://bxmbut4mwu4a6::::res://Sprites/Run.png
+player_(_mc_).tscn::PackedScene::3105799145263142598::1691636099::0::1::::<><>::res://Player ( MC ).gd<>uid://c7qf18qkeu3dd::::res://Sprites/adventurer-die-00-1.3.png<>uid://we8wsr3jxo6o::::res://Sprites/adventurer-idle-00.png<>uid://crgn0e0uey1l2::::res://Sprites/adventurer-die-01-1.3.png<>uid://duxpbohnd7ceg::::res://Sprites/adventurer-idle-01.png<>uid://b2c4c0eygwoon::::res://Sprites/adventurer-idle-02.png<>uid://dqed85shgyxe2::::res://Sprites/adventurer-die-02-1.3.png<>uid://bf850dxd78fri::::res://Sprites/adventurer-die-03-1.3.png<>uid://4w5dr6u7mfr5::::res://Sprites/adventurer-run-00.png<>uid://cn55cvl15rng1::::res://Sprites/adventurer-jump-00.png<>uid://c55nb1att0ruh::::res://Sprites/adventurer-run-01.png<>uid://csd74ekch51kp::::res://Sprites/adventurer-jump-01.png<>uid://fokarfgcg08::::res://Sprites/adventurer-die-04-1.3.png<>uid://tdit0nsjm5h3::::res://Sprites/adventurer-jump-02.png<>uid://4r8ylb4s78fa::::res://Sprites/adventurer-die-05-1.3.png<>uid://0r7fcn2hqiuw::::res://Sprites/adventurer-run-02.png<>uid://b0qe8np0i2plv::::res://Sprites/adventurer-jump-03.png<>uid://0kexwxsu6ftp::::res://Sprites/adventurer-die-06-1.3.png<>uid://bxkk4olxanl6l::::res://Sprites/adventurer-run-03.png<>uid://be3wnhfa5ioqf::::res://Sprites/adventurer-run-04.png<>uid://dbdnvjmisxowo::::res://Sprites/adventurer-run-05.png
+world.tscn::PackedScene::8613079977787531364::1691636100::0::1::::<><>::uid://cy18tvin22vgd::::res://Sprites/Background.png<>uid://bkiqb8h5x2wmo::::res://Scenes/player_(_mc_).tscn<>uid://cilnom4p2ceut::::res://Sprites/Tiles.png<>uid://bf83nu2k8cnwp::::res://Scenes/enemy.tscn
+::res://Sprites/::1691636281
+adventurer-die-00-1.3.png::CompressedTexture2D::7052266181921497977::1691634147::1691634153::1::::<><>::
+adventurer-die-01-1.3.png::CompressedTexture2D::5979272191139236281::1691634147::1691634153::1::::<><>::
+adventurer-die-02-1.3.png::CompressedTexture2D::8290783746315241215::1691634147::1691634153::1::::<><>::
+adventurer-die-03-1.3.png::CompressedTexture2D::2807355715678776326::1691634147::1691634153::1::::<><>::
+adventurer-die-04-1.3.png::CompressedTexture2D::11189811105034971::1691634147::1691634153::1::::<><>::
+adventurer-die-05-1.3.png::CompressedTexture2D::2072617987781599534::1691634147::1691634153::1::::<><>::
+adventurer-die-06-1.3.png::CompressedTexture2D::1775650001612279777::1691634147::1691634153::1::::<><>::
 adventurer-idle-00.png::CompressedTexture2D::1554455992247270380::1690761268::1690761275::1::::<><>::
 adventurer-idle-01.png::CompressedTexture2D::8611432899605190182::1690761268::1690761275::1::::<><>::
 adventurer-idle-02.png::CompressedTexture2D::4287413902168453041::1690761268::1690761275::1::::<><>::
@@ -298,6 +305,6 @@ adventurer-run-03.png::CompressedTexture2D::4022067576224640349::1690761453::169
 adventurer-run-04.png::CompressedTexture2D::2726337999948424509::1690761454::1690761457::1::::<><>::
 adventurer-run-05.png::CompressedTexture2D::7236471342193744394::1690761453::1690761457::1::::<><>::
 Background.png::CompressedTexture2D::6513086143126635467::1690941846::1690941850::1::::<><>::
-Idle.png::CompressedTexture2D::3285494922691488197::1691542442::1691542447::1::::<><>::
+Idle.png::CompressedTexture2D::3285494922691488197::1691636281::1691636286::1::::<><>::
 Run.png::CompressedTexture2D::4025634096605852499::1691544068::1691544108::1::::<><>::
 Tiles.png::CompressedTexture2D::5357875269602977451::1691360236::1691360240::1::::<><>::

@@ -104,7 +104,7 @@ animations = [{
 "speed": 5.0
 }]
 
-[node name="Enemy" type="Area2D" groups=["Death"]]
+[node name="Enemy ( Goblin )" type="Area2D" groups=["Death"]]
 script = ExtResource("1_vutj3")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

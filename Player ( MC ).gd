@@ -5,12 +5,13 @@ extends CharacterBody2D
 @export var jump_velocity = -500
 @export var max_speed =400
 @export var friction = 10
-
+var dead
 # Get the gravity from the project settings to be synced with RigidBody nodes.
 var gravity = ProjectSettings.get_setting("physics/2d/default_gravity")
 
 
 func _physics_process(delta):
+	if dead : return
 	# Add the gravity.
 	if not is_on_floor():
 		velocity.y += gravity * delta
@@ -41,3 +42,14 @@ func _physics_process(delta):
 		$AnimatedSprite2D.flip_h = true
 		
 	move_and_slide()
+
+
+func _on_hitbox_area_entered(area):
+	if area.is_in_group("Death"):
+		dead = true
+		$AnimatedSprite2D.play("Death")
+		$Timer.start()
+
+
+func _on_timer_timeout():
+	get_tree().reload_current_scene()# Replace with function body.
