@@ -1,0 +1,83 @@
+[gd_scene load_steps=13 format=3 uid="uid://dgyq4x86cpd0v"]
+
+[ext_resource type="Script" path="res://Enemy ( Flying Eye ).gd" id="1_j04y3"]
+[ext_resource type="Texture2D" uid="uid://bkqekou7xjo21" path="res://Sprites/Flight.png" id="2_83j3j"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_d14hp"]
+size = Vector2(41, 31)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_13f55"]
+atlas = ExtResource("2_83j3j")
+region = Rect2(0, 0, 150, 150)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hmsng"]
+atlas = ExtResource("2_83j3j")
+region = Rect2(150, 0, 150, 150)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a1nqb"]
+atlas = ExtResource("2_83j3j")
+region = Rect2(300, 0, 150, 150)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rl3nj"]
+atlas = ExtResource("2_83j3j")
+region = Rect2(450, 0, 150, 150)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i0ly7"]
+atlas = ExtResource("2_83j3j")
+region = Rect2(600, 0, 150, 150)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hn85m"]
+atlas = ExtResource("2_83j3j")
+region = Rect2(750, 0, 150, 150)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8m2ya"]
+atlas = ExtResource("2_83j3j")
+region = Rect2(900, 0, 150, 150)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b77m4"]
+atlas = ExtResource("2_83j3j")
+region = Rect2(1050, 0, 150, 150)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ogg51"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_13f55")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hmsng")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a1nqb")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rl3nj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i0ly7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hn85m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8m2ya")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b77m4")
+}],
+"loop": true,
+"name": &"Flight",
+"speed": 5.0
+}]
+
+[node name="Area2D" type="Area2D" groups=["Death"]]
+script = ExtResource("1_j04y3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(2.5, 2.5)
+shape = SubResource("RectangleShape2D_d14hp")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_ogg51")
+animation = &"Flight"
+autoplay = "Flight"
