@@ -1,9 +1,7 @@
-res://Scenes/player_(_mc_).tscn
-res://Enemy ( Skeleton ).gd
 res://Scenes/world.tscn
-res://Scenes/enemy.tscn
-res://Enemy ( Skeleton ).tscn
-res://Scenes/Enemy ( Skeleton ).tscn
-res://Enemy ( Flying Eye ).gd
-res://Scenes/Enemy ( Flying Eye ).tscn
+res://Scenes/player_(_mc_).tscn
 res://Scenes/Enemy ( Goblin ).tscn
+res://Scenes/Enemy ( Skeleton ).tscn
+res://Scenes/Enemy ( Flying Eye ).tscn
+res://Scenes/spiketrap.tscn
+res://Scenes/hidden_worm.tscn

@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://dxwj54n3gbaak"]
+
+[ext_resource type="Texture2D" uid="uid://dyiyit72cn0ck" path="res://Sprites/tile_0068.png" id="1_8rjxq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_i7q8x"]
+size = Vector2(18, 9)
+
+[node name="Spiketrap" type="Area2D" groups=["Death"]]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -1.5)
+shape = SubResource("RectangleShape2D_i7q8x")
+
+[node name="Spiketrap" type="Sprite2D" parent="."]
+position = Vector2(0, -6)
+texture = ExtResource("1_8rjxq")

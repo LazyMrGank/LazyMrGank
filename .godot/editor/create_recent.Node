@@ -1,4 +1,6 @@
+Sprite2D
 AnimatedSprite2D
+AnimationPlayer
 CollisionShape2D
 Area2D
 Timer
