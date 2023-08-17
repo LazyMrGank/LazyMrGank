@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=3 uid="uid://duyif0gm5peho"]
+[gd_scene load_steps=11 format=3 uid="uid://duyif0gm5peho"]
 
 [ext_resource type="Texture2D" uid="uid://cy18tvin22vgd" path="res://Sprites/Background.png" id="1_hjn17"]
 [ext_resource type="PackedScene" uid="uid://bkiqb8h5x2wmo" path="res://Scenes/player_(_mc_).tscn" id="1_qgmic"]
@@ -7,6 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://bf83nu2k8cnwp" path="res://Scenes/Enemy ( Goblin ).tscn" id="4_dcrsn"]
 [ext_resource type="PackedScene" uid="uid://braopbvklrqwu" path="res://Scenes/Enemy ( Skeleton ).tscn" id="5_6ofcw"]
 [ext_resource type="PackedScene" uid="uid://dgyq4x86cpd0v" path="res://Scenes/Enemy ( Flying Eye ).tscn" id="6_3avb4"]
+[ext_resource type="PackedScene" uid="uid://qvotqtsurcg4" path="res://Scenes/hidden_worm.tscn" id="8_lp8oj"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_40ujh"]
 texture = ExtResource("2_7eqe4")
@@ -969,3 +970,6 @@ right_limit = 2255
 position = Vector2(2090, -318)
 left_limit = 1940
 right_limit = 2250
+
+[node name="Hidden worm" parent="." instance=ExtResource("8_lp8oj")]
+position = Vector2(-664, 219)
