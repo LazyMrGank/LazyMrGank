@@ -1,6 +1,5 @@
 res://Scenes/menu.tscn
-res://Menu.gd
-res://Scenes/Tutorial Area.tscn
+res://Scenes/main_world.tscn
 res://Scenes/player_(_mc_).tscn
 res://Scenes/Enemy ( Goblin ).tscn
 res://Scenes/Enemy ( Skeleton ).tscn
