@@ -1,7 +1,12 @@
-[gd_scene load_steps=5 format=3 uid="uid://d252k6stg0glt"]
+[gd_scene load_steps=10 format=3 uid="uid://d252k6stg0glt"]
 
+[ext_resource type="Texture2D" uid="uid://cy18tvin22vgd" path="res://Sprites/Background.png" id="1_arbod"]
 [ext_resource type="Texture2D" uid="uid://cilnom4p2ceut" path="res://Sprites/Tiles.png" id="1_b2g3c"]
 [ext_resource type="PackedScene" uid="uid://bkiqb8h5x2wmo" path="res://Scenes/player_(_mc_).tscn" id="2_f47sr"]
+[ext_resource type="Texture2D" uid="uid://ropowriq01ae" path="res://Sprites/cloud.png" id="2_wfuxb"]
+[ext_resource type="Texture2D" uid="uid://7j8guubp0umk" path="res://Sprites/mountain2.png" id="3_k36f0"]
+[ext_resource type="Texture2D" uid="uid://dj2jdnjfyf5qh" path="res://Sprites/pine2.png" id="4_2qpnl"]
+[ext_resource type="Texture2D" uid="uid://hfk7bwujchha" path="res://Sprites/pine1.png" id="5_6v1y7"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_v73yt"]
 texture = ExtResource("1_b2g3c")
@@ -874,6 +879,46 @@ sources/0 = SubResource("TileSetAtlasSource_v73yt")
 [node name="Main World" type="Node2D"]
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.1, 0.1)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2(875.5, -458.5)
+scale = Vector2(6.85208, 5.29044)
+texture = ExtResource("1_arbod")
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.2, 0.2)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer2"]
+position = Vector2(878, -864.5)
+scale = Vector2(5.18612, 4.77206)
+texture = ExtResource("2_wfuxb")
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.3, 0.3)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer3"]
+position = Vector2(876, -228.25)
+scale = Vector2(4.76453, 7.21654)
+texture = ExtResource("3_k36f0")
+
+[node name="ParallaxLayer4" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.4, 0.4)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer4"]
+position = Vector2(877.5, -13.25)
+scale = Vector2(4.74855, 2.72613)
+texture = ExtResource("4_2qpnl")
+
+[node name="ParallaxLayer5" type="ParallaxLayer" parent="ParallaxBackground"]
+motion_scale = Vector2(0.5, 0.5)
+
+[node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer5"]
+position = Vector2(896, 48.5)
+scale = Vector2(4.70349, 3.14189)
+texture = ExtResource("5_6v1y7")
 
 [node name="Player ( MC )" parent="." instance=ExtResource("2_f47sr")]
 position = Vector2(286, -4)
