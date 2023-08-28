@@ -1,11 +1,13 @@
+VBoxContainer
+MarginContainer
+Control
+Button
 Node2D
+Node
 Sprite2D
 ParallaxLayer
 ParallaxBackground
 TileMap
-Button
-VBoxContainer
-MarginContainer
 AnimatedSprite2D
 AnimationPlayer
 CollisionShape2D
